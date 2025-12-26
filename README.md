@@ -2,7 +2,9 @@
 
 AI 提示词优化引擎 - 让你的 Prompt 更专业、更高效。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetter-prompt&env=LLM_BACKEND_URL,LLM_API_KEY,FREE_MODELS,DEFAULT_MODEL&envDescription=LLM%20API%20配置&envLink=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetter-prompt%23配置&project-name=better-prompt&repository-name=better-prompt)
+🌐 **在线体验**: [https://betterprompt-liart.vercel.app/](https://betterprompt-liart.vercel.app/)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetterprompt&env=LLM_BACKEND_URL,LLM_API_KEY,FREE_MODELS,DEFAULT_MODEL&envDescription=LLM%20API%20配置&envLink=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetterprompt%23配置&project-name=betterprompt&repository-name=betterprompt)
 
 ![BetterPrompt Screenshot](docs/screenshot.png)
 
@@ -26,8 +28,8 @@ AI 提示词优化引擎 - 让你的 Prompt 更专业、更高效。
 
 ```bash
 # 克隆项目
-git clone https://github.com/zhalice2011/better-prompt.git
-cd better-prompt
+git clone https://github.com/zhalice2011/betterprompt.git
+cd betterprompt
 
 # 安装依赖
 npm install
@@ -76,7 +78,7 @@ npm start
 
 点击下方按钮，即可将项目部署到 Vercel：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetter-prompt&env=LLM_BACKEND_URL,LLM_API_KEY,FREE_MODELS,DEFAULT_MODEL&envDescription=LLM%20API%20配置&envLink=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetter-prompt%23配置&project-name=better-prompt&repository-name=better-prompt)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetterprompt&env=LLM_BACKEND_URL,LLM_API_KEY,FREE_MODELS,DEFAULT_MODEL&envDescription=LLM%20API%20配置&envLink=https%3A%2F%2Fgithub.com%2Fzhalice2011%2Fbetterprompt%23配置&project-name=betterprompt&repository-name=betterprompt)
 
 部署时会提示你配置以下环境变量：
 
@@ -120,7 +122,7 @@ npm start
 ## 项目结构
 
 ```
-better-prompt-next/
+betterprompt-next/
 ├── app/                    # Next.js App Router
 │   ├── api/v1/            # API 路由
 │   ├── page.tsx           # 主页面
